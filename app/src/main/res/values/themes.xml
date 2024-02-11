@@ -1,0 +1,40 @@
+<resources>
+
+    <attr name="bg" format="reference|color"/>
+    <attr name="navBg" format="reference|color"/>
+    <attr name="text" format="reference|color"/>
+    <attr name="fasting" format="reference|color"/>
+    <attr name="today_border" format="reference|color"/>
+    <attr name="today_bg" format="reference|color"/>
+    <attr name="shadow" format="reference|color"/>
+
+    <style name="Theme.FastingDays" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">#77C000</item>
+        <item name="colorPrimary">#77C000</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="bg">@color/white</item>
+        <item name="navBg">@color/gray_very_light</item>
+        <item name="text">@color/gray_very_dark</item>
+        <item name="fasting">@color/fasting</item>
+        <item name="today_border">@color/today_border</item>
+        <item name="today_bg">@color/today_bg</item>
+        <item name="shadow">#80FFFFFF</item>
+    </style>
+
+    <style name="Theme.Settings.Switches" parent="Theme.FastingDays">
+        <item name="colorAccent">#88AC4D</item>
+        <item name="colorPrimary">#77C000</item>
+        <item name="colorPrimaryContainer">#E0E8E0</item>
+        <item name="colorOnSurface">#A0A0A0</item>
+        <item name="colorOutline">#E0E0E0</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.FastingDays</item>
+    </style>
+</resources>

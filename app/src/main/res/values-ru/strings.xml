@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Постные дни</string>
+
+    <string name="fasting_nativity">Рождественский пост</string>
+    <string name="fasting_greatlent">Великий пост</string>
+    <string name="fasting_apostles">Петров пост</string>
+    <string name="fasting_dormition">Успенский пост</string>
+    <string name="fasting_ordinarytime">Нет поста</string>
+    <string name="fasting_lenten_wednesday">Постная среда</string>
+    <string name="fasting_lenten_friday">Постная пятница</string>
+    <string name="fasting_daylong">Однодневный пост</string>
+
+    <string name="holiday_nativityofthetheotokos">Рождество Пресвятой Богородицы</string>
+    <string name="holiday_exaltationofthecross">Воздвижение Креста Господня</string>
+    <string name="holiday_presentationofthetheotokos">Введение во храм Пресвятой Богородицы</string>
+    <string name="holiday_christmaseve">Рождественский сочельник</string>
+    <string name="holiday_nativityofchrist">Рождество Христово</string>
+    <string name="holiday_theophanyeve">Крещенский сочельник</string>
+    <string name="holiday_baptismofchrist">Крещение Господне</string>
+    <string name="holiday_presentationofjesus">Сретение Господне</string>
+    <string name="holiday_annunciation">Благовещение Пресвятой Богородицы</string>
+    <string name="holiday_entryintojerusalem">Вход Господень в Иерусалим</string>
+    <string name="holiday_easter">Пасха</string>
+    <string name="holiday_ascensionofchrist">Вознесение Господне</string>
+    <string name="holiday_pentecost">День Святой Троицы</string>
+    <string name="holiday_transfiguration">Преображение Господне</string>
+    <string name="holiday_dormitionofthetheotokos">Успение Богородицы</string>
+    <string name="holiday_beheadingjohnbaptist">Усекновение главы Иоанна Предтечи</string>
+    <string name="holiday_circumcisionofjesus">Обрезание Господне</string>
+    <string name="holiday_intercessionofthetheotokos">Покров Пресвятой Богородицы</string>
+    <string name="holiday_feastofsaintspeterandpaul">День апостолов Петра и Павла</string>
+    <string name="holiday_mondayoftheholyspirit">День Святого Духа</string>
+    <string name="holiday_saturdayofmeatfareweek">Вселенская родительская суббота</string>
+    <string name="holiday_saturdaybeforepentecost">Троицкая родительская суббота</string>
+    <string name="holiday_radonitsa">Радоница</string>
+
+    <string name="theme_0">Климат</string>
+    <string name="theme_1">Времена года</string>
+    <string name="theme_2">Спектр</string>
+    <string name="theme_3">Серая</string>
+
+    <string name="navdraw_view_title">Вид</string>
+    <string name="navdraw_view_ring">Кольцо</string>
+    <string name="navdraw_view_rect">Прямоугольник</string>
+    <string name="navdraw_view_calendar">Календарь</string>
+    <string name="navdraw_view_schedule">Расписание</string>
+    <string name="navdraw_misc_title">Прочее</string>
+    <string name="navdraw_misc_settings">Настройки</string>
+    <string name="navdraw_misc_about">О программе</string>
+
+    <string name="settings_appearance_header">Внешний вид</string>
+    <string name="settings_nightmode">Тёмная тема</string>
+    <string name="settings_nightmode_on">Всегда включена</string>
+    <string name="settings_nightmode_off">Всегда выключена</string>
+    <string name="settings_nightmode_system">Как в системе</string>
+    <string name="settings_lighten_past">Осветлять прошедшие дни</string>
+    <string name="settings_theme">Цветовая тема</string>
+    <string name="settings_flip_ring">Отражать кольцо зеркально</string>
+    <string name="settings_show_holidays">Показывать праздники</string>
+    <string name="settings_show_holidays_none">Не показывать</string>
+    <string name="settings_show_holidays_supermain">Пасха, Рождество и Троица</string>
+    <string name="settings_show_holidays_great">Двунадесятые</string>
+
+    <string name="about_author">Автор: Вадим Дорофеев</string>
+    <string name="about_site">Посетить www.vadimdorofeev.ru</string>
+    <string name="about_privacy_policy_title">Политика конфиденциальности</string>
+    <string name="about_privacy_policy">Мы не собираем и не храним ваши данные, и никак не отслеживаем использование нашего приложения.</string>
+
+    <string name="previous_year">Предыдущий год</string>
+    <string name="next_year">Следующий год</string>
+
+    <string name="dialog_year_title">Выберите год</string>
+    <string name="dialog_ok">ОК</string>
+    <string name="dialog_cancel">Отмена</string>
+
+    <string-array name="month_names">
+        <item>января</item>
+        <item>февраля</item>
+        <item>марта</item>
+        <item>апреля</item>
+        <item>мая</item>
+        <item>июня</item>
+        <item>июля</item>
+        <item>августа</item>
+        <item>сентября</item>
+        <item>октября</item>
+        <item>ноября</item>
+        <item>декабря</item>
+    </string-array>
+
+    <string-array name="month_names_single">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+    <string-array name="day_names">
+        <item>понедельник</item>
+        <item>вторник</item>
+        <item>среда</item>
+        <item>четверг</item>
+        <item>пятница</item>
+        <item>суббота</item>
+        <item>воскресенье</item>
+    </string-array>
+
+    <string name="date_format">%d %m, %w</string>
+
+    <plurals name="stat_total">
+        <item quantity="one">В %1$d году %2$d постный день (%3$d%%)</item>
+        <item quantity="few">В %1$d году %2$d постных дня (%3$d%%)</item>
+        <item quantity="many">В %1$d году %2$d постных дней (%3$d%%)</item>
+        <item quantity="other">В %1$d году %2$d постных дней (%3$d%%)</item>
+    </plurals>
+
+    <plurals name="stat_passed">
+        <item quantity="one">Уже прошёл %1$d постный день (%2$d%%)</item>
+        <item quantity="few">Уже прошло %1$d постных дня (%2$d%%)</item>
+        <item quantity="many">Уже прошло %1$d постных дней (%2$d%%)</item>
+        <item quantity="other">Уже прошло %1$d постных дней (%2$d%%)</item>
+    </plurals>
+
+    <plurals name="offset_year">
+        <item quantity="one">%1$d год</item>
+        <item quantity="few">%1$d года</item>
+        <item quantity="many">%1$d лет</item>
+        <item quantity="other">%1$d лет</item>
+    </plurals>
+
+    <plurals name="offset_month">
+        <item quantity="one">%1$d месяц</item>
+        <item quantity="few">%1$d месяца</item>
+        <item quantity="many">%1$d месяцев</item>
+        <item quantity="other">%1$d месяцев</item>
+    </plurals>
+
+    <plurals name="offset_day">
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дней</item>
+    </plurals>
+
+    <string name="offset_past">Прошло %y%m%d</string>
+    <string name="offset_future">Через %y%m%d</string>
+    <string name="offset_yesterday">Вчера</string>
+    <string name="offset_today">Сегодня</string>
+    <string name="offset_tomorrow">Завтра</string>
+
+    <string name="beginning">&lt;font color="#808080"&gt;(начало)&lt;font&gt;</string>
+    <string name="ending">&lt;font color="#808080"&gt;(окончание)&lt;/font&gt;</string>
+</resources>

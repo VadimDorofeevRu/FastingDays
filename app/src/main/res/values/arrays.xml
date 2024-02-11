@@ -1,0 +1,65 @@
+<resources>
+    <string-array name="settings_nightmode_names">
+        <item>@string/settings_nightmode_on</item>
+        <item>@string/settings_nightmode_off</item>
+        <item>@string/settings_nightmode_system</item>
+    </string-array>
+
+    <string-array name="settings_nightmode_values">
+        <item>on</item>
+        <item>off</item>
+        <item>system</item>
+    </string-array>
+
+    <string-array name="settings_show_holidays_names">
+        <item>@string/settings_show_holidays_none</item>
+        <item>@string/settings_show_holidays_supermain</item>
+        <item>@string/settings_show_holidays_great</item>
+    </string-array>
+
+    <string-array name="settings_show_holidays_values">
+        <item>none</item>
+        <item>supermain</item>
+        <item>all</item>
+    </string-array>
+
+    <array name="theme_0">
+        <item>0x40E0FF</item>
+        <item>0x60F0FF</item>
+        <item>0x80FFC0</item>
+        <item>0x80FF80</item>
+        <item>0xE0FF80</item>
+        <item>0xFFF060</item>
+        <item>0xFFE040</item>
+        <item>0xFFF060</item>
+        <item>0xE0FF80</item>
+        <item>0xA0FF80</item>
+        <item>0x80FFE0</item>
+        <item>0x40E0FF</item>
+    </array>
+
+    <array name="theme_1">
+        <item>0x80FFFF</item>
+        <item>0x80FF80</item>
+        <item>0xFFFF80</item>
+        <item>0xFF8040</item>
+        <item>0x80FFFF</item>
+    </array>
+
+    <array name="theme_2">
+        <item>0xFF0000</item>
+        <item>0xFF8000</item>
+        <item>0xFFFF00</item>
+        <item>0x00FF00</item>
+        <item>0x00FFFF</item>
+        <item>0x0000FF</item>
+        <item>0xFF00FF</item>
+        <item>0xFF0000</item>
+    </array>
+
+    <array name="theme_3">
+        <item>0xDCDCDC</item>
+        <item>0xDCDCDC</item>
+    </array>
+
+</resources>

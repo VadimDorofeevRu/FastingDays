@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fasting Days</string>
+
+    <string name="fasting_nativity">Nativity Fast</string>
+    <string name="fasting_greatlent">Great Lent</string>
+    <string name="fasting_apostles">Apostles\' Fast</string>
+    <string name="fasting_dormition">Dormition Fast</string>
+    <string name="fasting_ordinarytime">Ordinary Time</string>
+    <string name="fasting_lenten_wednesday">Lenten Wednesday</string>
+    <string name="fasting_lenten_friday">Lenten Friday</string>
+    <string name="fasting_daylong">One-day Fast</string>
+
+    <string name="holiday_nativityofthetheotokos">Nativity of the Theotokos</string>
+    <string name="holiday_exaltationofthecross">Exaltation of the Cross</string>
+    <string name="holiday_presentationofthetheotokos">Presentation of the Theotokos</string>
+    <string name="holiday_christmaseve">Christmas Eve</string>
+    <string name="holiday_nativityofchrist">Nativity of Christ</string>
+    <string name="holiday_theophanyeve">Theophany Eve</string>
+    <string name="holiday_baptismofchrist">Baptism of Christ</string>
+    <string name="holiday_presentationofjesus">Presentation of Jesus</string>
+    <string name="holiday_annunciation">Annunciation</string>
+    <string name="holiday_entryintojerusalem">Entry Into Jerusalem</string>
+    <string name="holiday_easter">Easter</string>
+    <string name="holiday_ascensionofchrist">Ascension of Christ</string>
+    <string name="holiday_pentecost">Pentecost</string>
+    <string name="holiday_transfiguration">Transfiguration</string>
+    <string name="holiday_dormitionofthetheotokos">Dormition of the Theotokos</string>
+    <string name="holiday_beheadingjohnbaptist">Beheading John Baptist</string>
+    <string name="holiday_circumcisionofjesus">Circumcision of Jesus</string>
+    <string name="holiday_intercessionofthetheotokos">Intercession of the Theotokos</string>
+    <string name="holiday_feastofsaintspeterandpaul">Feast of Saints Peter and Paul</string>
+    <string name="holiday_mondayoftheholyspirit">Monday of the Holy Spirit</string>
+    <string name="holiday_saturdayofmeatfareweek">Saturday of Meatfare Week</string>
+    <string name="holiday_saturdaybeforepentecost">Saturday before Pentecost</string>
+    <string name="holiday_radonitsa">Radonitsa</string>
+
+    <string name="theme_0">Climate</string>
+    <string name="theme_1">Seasons</string>
+    <string name="theme_2">Spectrum</string>
+    <string name="theme_3">Gray</string>
+
+    <string name="navdraw_view_title">View</string>
+    <string name="navdraw_view_ring">Ring</string>
+    <string name="navdraw_view_rect">Rectangle</string>
+    <string name="navdraw_view_calendar">Calendar</string>
+    <string name="navdraw_view_schedule">Schedule</string>
+    <string name="navdraw_misc_title">Misc</string>
+    <string name="navdraw_misc_settings">Settings</string>
+    <string name="navdraw_misc_about">About</string>
+
+    <string name="settings_appearance_header">Appearance</string>
+    <string name="settings_nightmode">Night Mode</string>
+    <string name="settings_nightmode_on">Always on</string>
+    <string name="settings_nightmode_off">Always off</string>
+    <string name="settings_nightmode_system">Use the system setting</string>
+    <string name="settings_lighten_past">Lighten up the past days</string>
+    <string name="settings_theme">Color theme</string>
+    <string name="settings_flip_ring">Flip ring</string>
+    <string name="settings_show_holidays">Show holidays:</string>
+    <string name="settings_show_holidays_none">None</string>
+    <string name="settings_show_holidays_supermain">Easter, Nativity and Pentecost</string>
+    <string name="settings_show_holidays_great">Great Feasts</string>
+
+    <string name="about_author">Author: Vadim Dorofeev</string>
+    <string name="about_site">Visit www.vadimdorofeev.ru</string>
+    <string name="about_privacy_policy_title">Privacy Policy</string>
+    <string name="about_privacy_policy">We don\'t collect or store any of your data, or track your usage in any way.</string>
+
+    <string name="previous_year">Previous year</string>
+    <string name="next_year">Next year</string>
+
+    <string name="dialog_year_title">Select year</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string-array name="month_names">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="month_names_single">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="day_names">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="date_format">%w, %m %d</string>
+
+    <plurals name="stat_total">
+        <item quantity="zero">Year %1$d contains %2$d lenten days (%3$d%%)</item>
+        <item quantity="one">Year %1$d contains %2$d lenten day (%3$d%%)</item>
+        <item quantity="two">Year %1$d contains %2$d lenten days (%3$d%%)</item>
+        <item quantity="few">Year %1$d contains %2$d lenten days (%3$d%%)</item>
+        <item quantity="many">Year %1$d contains %2$d lenten days (%3$d%%)</item>
+        <item quantity="other">Year %1$d contains %2$d lenten days (%3$d%%)</item>
+    </plurals>
+
+    <plurals name="stat_passed">
+        <item quantity="zero">%1$d (%2$d%%) of them have already passed</item>
+        <item quantity="one">%1$d (%2$d%%) of them have already passed</item>
+        <item quantity="two">%1$d (%2$d%%) of them have already passed</item>
+        <item quantity="few">%1$d (%2$d%%) of them have already passed</item>
+        <item quantity="many">%1$d (%2$d%%) of them have already passed</item>
+        <item quantity="other">%1$d (%2$d%%) of them have already passed</item>
+    </plurals>
+
+    <plurals name="offset_year">
+        <item quantity="zero">%1$d years</item>
+        <item quantity="one">%1$d year</item>
+        <item quantity="two">%1$d years</item>
+        <item quantity="few">%1$d years</item>
+        <item quantity="many">%1$d years</item>
+        <item quantity="other">%1$d years</item>
+    </plurals>
+
+    <plurals name="offset_month">
+        <item quantity="zero">%1$d months</item>
+        <item quantity="one">%1$d month</item>
+        <item quantity="two">%1$d months</item>
+        <item quantity="few">%1$d months</item>
+        <item quantity="many">%1$d months</item>
+        <item quantity="other">%1$d months</item>
+    </plurals>
+
+    <plurals name="offset_day">
+        <item quantity="zero">%1$d days</item>
+        <item quantity="one">%1$d day</item>
+        <item quantity="two">%1$d days</item>
+        <item quantity="few">%1$d days</item>
+        <item quantity="many">%1$d days</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+
+    <string name="offset_past">%y%m%dhave passed</string>
+    <string name="offset_future">After %y%m%d</string>
+    <string name="offset_yesterday">Yesterday</string>
+    <string name="offset_today">Today</string>
+    <string name="offset_tomorrow">Tomorrow</string>
+
+    <string name="beginning">&lt;font color="#808080"&gt;(begin)&lt;font&gt;</string>
+    <string name="ending">&lt;font color="#808080"&gt;(end)&lt;font&gt;</string>
+</resources>

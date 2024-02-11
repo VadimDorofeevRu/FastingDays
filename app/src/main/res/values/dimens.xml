@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainTextSize">18sp</dimen>
+    <dimen name="mainMargin">8dp</dimen>
+    <dimen name="bigMargin">20dp</dimen>
+    <dimen name="veryBigMargin">50dp</dimen>
+    <dimen name="betweenLinesMargin">2dp</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="@string/settings_appearance_header"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            app:key="nightmode"
+            app:entries="@array/settings_nightmode_names"
+            app:entryValues="@array/settings_nightmode_values"
+            app:defaultValue="system"
+            app:title="@string/settings_nightmode"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            app:key="theme"
+            app:defaultValue="0"
+            app:title="@string/settings_theme"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreferenceCompat
+            app:key="lighten_past"
+            app:title="@string/settings_lighten_past"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreferenceCompat
+            app:key="flip_ring"
+            app:title="@string/settings_flip_ring"
+            app:defaultValue="false"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            app:key="show_holidays"
+            app:entries="@array/settings_show_holidays_names"
+            app:entryValues="@array/settings_show_holidays_values"
+            app:defaultValue="supermain"
+            app:title="@string/settings_show_holidays"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
