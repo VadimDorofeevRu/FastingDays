@@ -122,7 +122,7 @@ class RingView @JvmOverloads constructor (context: Context,
             (a / step).toInt()
         else
             ((360 - a) / step).toInt()
-        return (day + info.days.size) % info.days.size;
+        return (day + info.days.size) % info.days.size
     }
 
     override fun beforeDraw(canvas: Canvas) {

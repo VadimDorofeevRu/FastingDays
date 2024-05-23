@@ -42,8 +42,8 @@ object Common {
     fun dateToStr(date: LocalDate): String {
         return dateFormat
             .replace("%d", date.dayOfMonth.toString())
-            .replace("%m", Common.titlesMonth[date.monthValue - 1])
-            .replace("%w", Common.titlesDay[date.dayOfWeek.value - 1])
+            .replace("%m", titlesMonth[date.monthValue - 1])
+            .replace("%w", titlesDay[date.dayOfWeek.value - 1])
     }
 
     // Темы оформления

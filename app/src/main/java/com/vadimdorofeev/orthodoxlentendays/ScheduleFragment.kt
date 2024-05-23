@@ -86,6 +86,7 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
 
         var prevMonth = -1
         var prevIsPast = true
+        var monthItem: ScheduleItem? = null
         todayPos = -1
         for (day in info.schedule) {
             val month = day.date.monthValue - 1
@@ -95,23 +96,22 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
                 if (items.size != 0 && items[items.size - 1].kind == ScheduleItemKind.MonthName)
                     items.removeAt(items.size - 1)
 
-                val item = ScheduleItem(ScheduleItemKind.MonthName).apply {
+                monthItem = ScheduleItem(ScheduleItemKind.MonthName).apply {
                     title = SpannedString(Common.titlesMonthSingle[month])
                     color = if (Common.nightMode)
                         Common.themes[Common.currentTheme].colors[month * 31]
                     else
                         Common.themes[Common.currentTheme].lightenColors[month * 31]
                 }
-                items.add(item)
                 prevMonth = month
             }
 
             val item = if (day.fastingBegin != Fasting.None || day.fastingEnd != Fasting.None)
                 getScheduleItem(
                     if (day.fastingBegin != Fasting.None)
-                        "${Common.titlesFasting[day.fastingBegin]} ${getString(R.string.beginning)}" ?: ""
+                        "${Common.titlesFasting[day.fastingBegin]} ${getString(R.string.beginning)}"
                     else if (day.fastingEnd != Fasting.None)
-                        "${Common.titlesFasting[day.fastingEnd]} ${getString(R.string.ending)}" ?: ""
+                        "${Common.titlesFasting[day.fastingEnd]} ${getString(R.string.ending)}"
                     else
                         "",
                     day.date,
@@ -124,6 +124,12 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
 
             // Если год текущий и переход из прошлого, нужно добавить сегодняшний день
             if (prevIsPast && item.tense >= 0 && day.date.year == Common.today.year) {
+
+                if (monthItem != null && month <= Common.today.monthValue - 1) {
+                    items.add(monthItem)
+                    monthItem = null
+                }
+
                 prevIsPast = false
                 if (item.tense > 0) // Переход сразу в будущее - создаётся сегодняшняя рамка
                     items.add(getTodayScheduleItem())
@@ -132,6 +138,11 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
                 todayPos = items.size - 1
                 while (todayPos > 0 && items[todayPos].kind != ScheduleItemKind.MonthName)
                     todayPos--
+            }
+
+            if (monthItem != null) {
+                items.add(monthItem)
+                monthItem = null
             }
 
             items.add(item)
