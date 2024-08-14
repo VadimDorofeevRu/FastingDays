@@ -45,8 +45,8 @@ class YearInfo(val year: Int) {
         // Преображение Господне, 6/19 августа
         Event(-1, 8, 19, Holiday.Transfiguration),
 
-        // Успение Богородицы, 25/29 августа
-        Event(-1, 8, 29, Holiday.DormitionOfTheTheotokos),
+        // Успение Богородицы, 15/28 августа
+        Event(-1, 8, 28, Holiday.DormitionOfTheTheotokos),
 
         // Усекновение главы Иоанна Предтечи, 29 августа / 11 сентября
         Event(-1, 9, 11, Holiday.BeheadingJohnBaptist, Fasting.Daylong),
