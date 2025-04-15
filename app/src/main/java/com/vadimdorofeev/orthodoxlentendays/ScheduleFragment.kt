@@ -39,11 +39,12 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
         item.isFasting = isFasting
 
         // Если два дня подряд с одним числом, то у второго дата должна быть пустой
-        if (items.size != 0) {
+        // Убрано, т.к. вызывало путаницу
+        /*if (items.size != 0) {
             val last = items.last()
             if (last.kind == ScheduleItemKind.Event && last.day == item.day)
                 item.day = ""
-        }
+        }*/
 
         // Текст смещения события относительно сегодняшнего дня
         val period = Period.between(Common.today, date)
